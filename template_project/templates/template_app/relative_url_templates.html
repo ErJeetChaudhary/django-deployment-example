@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Relative Url Template</title>
+</head>
+
+<body>
+  <h1>Welcome to Relative Url Template</h1>
+  <a href="{% url 'template_app:other' %}">The Other Page via template tagging</a><br />
+  <a href="{% url 'admin:index' %}">Link to Admin</a><br />
+  <a href="{% url 'index' %}">Link to Home Page</a><br />
+</body>
+
+</html>
